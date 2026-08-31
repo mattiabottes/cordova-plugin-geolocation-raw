@@ -1,17 +1,16 @@
 {
   "name": "cordova-plugin-geolocation-raw",
   "version": "1.0.0",
-  "description": "Cordova定位插件，不使用第三方库",
+  "description": "Cordova Android Geolocation (raw)",
   "cordova": {
     "id": "cordova-plugin-geolocation-raw",
     "platforms": [
-      "ios",
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hankersyan/cordova-plugin-geolocation-raw"
+    "url": "git+https://github.com/mattiabottes/cordova-plugin-geolocation-raw"
   },
   "keywords": [
     "cordova",
@@ -19,10 +18,10 @@
     "geolocation",
     "location"
   ],
-  "author": "hankersyan <hankersyan@msn.com>",
+  "author": "mattiabottes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hankersyan/cordova-plugin-geolocation-raw/issues"
+    "url": "https://github.com/mattiabottes/cordova-plugin-geolocation-raw/issues"
   },
-  "homepage": "https://github.com/hankersyan/cordova-plugin-geolocation-raw#readme"
+  "homepage": "https://github.com/mattiabottes/cordova-plugin-geolocation-raw#readme"
 }
