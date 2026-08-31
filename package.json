@@ -19,7 +19,7 @@
     "location"
   ],
   "author": "mattiabottes",
-  "license": "ISC",
+  "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/mattiabottes/cordova-plugin-geolocation-raw/issues"
   },
