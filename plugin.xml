@@ -21,7 +21,7 @@
         </config-file>
 
         <!-- Plugin souce code -->
-        <source-file src="src/android/RawLocation.java" target-dir="src/io/hankers/plugin" />
+        <source-file src="src/android/RawLocation.java" target-dir="src/it/mattiabottes/plugin" />
 
     </platform>
 </plugin>
