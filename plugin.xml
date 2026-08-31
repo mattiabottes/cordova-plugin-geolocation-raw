@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-geolocation-raw" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-geolocation-raw</name>
+
+    <js-module name="cordova-plugin-geolocation-raw" src="www/cordova-plugin-location-raw.js">
+        <clobbers target="RawLocation" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="RawLocation">
+                <param name="android-package" value="it.mattiabottes.plugin.RawLocation"/>
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <!-- Plugin souce code -->
+        <source-file src="src/android/RawLocation.java" target-dir="src/io/hankers/plugin" />
+
+    </platform>
+</plugin>
