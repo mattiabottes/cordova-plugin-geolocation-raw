@@ -1,4 +1,4 @@
-package io.mattiabottes.plugin;
+package it.mattiabottes.plugin;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
